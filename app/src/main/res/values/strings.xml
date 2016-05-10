@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Async Download</string>
+    <string name="download">download</string>
 </resources>
