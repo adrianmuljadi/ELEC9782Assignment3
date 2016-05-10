@@ -16,29 +16,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <!--<ProgressBar-->
-        <!--style="?android:attr/progressBarStyleLarge"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:id="@+id/progressBar"-->
-        <!--android:layout_alignParentBottom="true"-->
-        <!--android:layout_centerHorizontal="true"-->
-        <!--android:layout_marginBottom="67dp" />-->
-
     <ProgressBar
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/progressBar"
+        android:max="5"
+        android:minWidth="200dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="download"
         android:id="@+id/button"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="112dp" />
+        android:layout_marginTop="112dp"/>
 </RelativeLayout>
